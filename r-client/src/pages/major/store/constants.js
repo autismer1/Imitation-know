@@ -1,0 +1,7 @@
+export const GET_VIDEO_LIST = 'GET_VIDEO_LIST';
+
+export const GET_RECOMMEND_LIST = 'GET_RECOMMEND_LIST';
+
+export const GET_HOT_LIST = 'GET_HOT_LIST';
+
+export const GET_FOLLOW_LIST = 'GET_FOLLOW_DATA';

@@ -1,0 +1,162 @@
+.css-1x8hcdw {
+  background-color: #FFFFFF;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
+
+  &.AppHeader {
+    background-clip: content-box;
+    box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+    position: relative;
+    z-index: 100;
+    min-width: 1000px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .css-qqgmyv {
+
+    &.AppHeader-inner {
+      position: relative;
+      display: flex;
+      height: 52px;
+      padding: 0 16px;
+      margin: 0 auto;
+      align-items: center;
+      transition: transform .3s;
+
+      .logo {
+        cursor: pointer;
+        width: 71px;
+        height: 50px;
+      }
+    }
+
+    .css-g0ay3v {
+      margin-left: 25px;
+      margin-right: 15px;
+
+      &.AppHeader-Tabs {
+        border-bottom: none;
+        display: flex;
+        flex-shrink: 0;
+        margin: 0 16px;
+      }
+
+      &.Tabs {
+        .Tabs-item {
+          position: relative;
+          display: inline-block;
+          padding: 0 20px;
+          cursor: pointer;
+
+          &.AppHeader-Tab {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+
+          a {
+            position: relative;
+            display: inline-block;
+            padding: 14px 0;
+            font-size: 16px;
+            line-height: 22px;
+            color: #8590a6;
+            text-align: center;
+          }
+
+          .TabsLink {
+            font-weight: 700;
+            color: #121212;
+
+            &::after {
+              position: absolute;
+              right: 0;
+              bottom: -1px;
+              left: 0;
+              height: 4px;
+              background: #06f;
+              content: "";
+              background-color: #0066FF !important;
+            }
+          }
+        }
+      }
+    }
+
+    .css-1acwmmj {
+      box-sizing: border-box;
+      margin: 0;
+      min-width: 0;
+      flex: 1;
+      justify-content: center;
+      display: flex;
+
+      .SearchBar {
+        display: flex;
+
+        &.css-10fy1q8 {
+          max-width: 482px;
+        }
+
+        &.AppHeader-SearchBar {
+          height: 34px;
+          flex-grow: 1;
+          position: relative;
+        }
+
+        ::v-deep(.el-input__inner) {
+          height: 34px;
+          border-radius: 30px;
+          background-color: #f6f6f6;
+        }
+
+        ::v-deep(.el-input__icon) {
+          color: #788294;
+        }
+
+        ::v-deep(.el-button) {
+          border-radius: 999px;
+          min-width: 70px !important;
+          margin-left: 12px;
+          border: 0;
+          text-align: center;
+          height: 34px !important;
+          padding: 0 14px;
+          min-height: auto;
+          color: #fff;
+          background-color: #06f;
+        }
+      }
+    }
+
+    .AppHeader-userInfo {
+      margin-left: 30px;
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .Popover {
+        position: relative;
+
+        .icon {
+          margin-right: 40px;
+          color: #8590a6;
+          font-size: 22px;
+          cursor: pointer;
+
+          &.icon-xiaoxitongzhi {
+            font-size: 20px;
+          }
+        }
+
+        img {
+          cursor: pointer;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

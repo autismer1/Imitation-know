@@ -1,0 +1,47 @@
+.dropdown .menu_item {
+ height: 40px;
+ padding: 0 20px;
+}
+
+.dropdown .text {
+ color: #8590A6;
+}
+
+.dropdown .icon {
+ color: rgb(159, 173, 199);
+ font-size: 18px;
+ margin-left: -2px;
+ margin-right: 6px;
+}
+
+.dropdown .xinlang {
+ color: rgb(251, 102, 34) !important;
+}
+
+.dropdown .wexinhover:hover {
+  background-color: #fff !important;
+}
+
+.dropdown .weixin {
+ color: #76839b;
+}
+
+.dropdown .weixinBox {
+ height: 40px;
+ color: #76839b;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.dropdown .weixinIcon {
+ font-size: 18px;
+ color: rgb(96, 200, 77);
+ margin-left: -2px;
+ margin-right: 6px;
+}
+
+.dropdown .qrCode {
+ width: 94px;
+ height: 94px;
+}

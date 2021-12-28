@@ -1,0 +1,28 @@
+.SignFlowHomepage-footer {
+  padding-bottom: 20px;
+  text-shadow: 0 1px 2px #999;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+}
+
+.SignFlowHomepage-footer a {
+  color: inherit;
+
+  img {
+    position: relative;
+    top: 4px;
+    margin-right: 2px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.SignFlowHomepage-footer a:not(:last-child):after, .SignFlowHomepage-footer span:not(:last-child):after {
+  content: " · ";
+  white-space: pre;
+  display: inline-block;
+}

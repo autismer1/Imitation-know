@@ -1,0 +1,77 @@
+.App-main {
+
+  .Topstory-container {
+    ::v-deep(.el-main) {
+      padding: 0;
+    }
+
+    .Topstory-mainColumn {
+      flex-shrink: 0;
+      margin-right: 10px;
+      margin-bottom: 0;
+      width: 694px;
+
+      .Topstory-mainColumnCard {
+        box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+
+        .Card {
+          box-shadow: none;
+          margin-bottom: 0 !important;
+          background: #fff;
+          overflow: hidden;
+          border-radius: 2px;
+          box-sizing: border-box;
+
+          // &.Topstory-tabCard {
+
+          // }
+
+          .Topstory-tabs {
+            border-bottom: 1px solid #f0f2f7;
+
+            &.TopstoryTabs {
+              height: 58px;
+              display: flex;
+            }
+
+            .TopstoryTabs-link {
+              align-items: center;
+              display: flex;
+              font-size: 16px;
+              margin: 0 22px;
+
+              &.is-active {
+                color: #06f;
+                font-weight: 500;
+              }
+            }
+          }
+
+          .Topstory-content {
+            .Topstory-mainColumnCard .Card:not(.Topstory-tabCard) {
+              margin-bottom: 0;
+              box-shadow: none;
+              border-bottom: 1px solid #f0f2f7;
+            }
+
+            .TopstoryItem-isRecommend {
+              padding: 20px;
+            }
+
+            .Card {
+              box-sizing: border-box;
+              background-color: #fff;
+            }
+
+            .TopstoryItem {
+              border-radius: 0;
+              overflow: initial;
+              position: relative;
+              padding: 16px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

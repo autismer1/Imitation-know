@@ -1,0 +1,7 @@
+export const GET_SPECIAL_LIST = "GET_SPECIAL_LIST";
+
+export const GET_DISCUSS_LIST = "GET_DISCUSS_LIST";
+
+export const GET_COLLECT_LIST = "GET_COLLECT_LIST";
+
+export const GET_COLUMN_LIST = "GET_COLUMN_LIST";
